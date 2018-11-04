@@ -1,0 +1,424 @@
+body {
+    background-image: url(../images/wheat.png);
+}
+
+/** Header **/
+
+header {
+    width: 100%;
+    background-color: white;
+    height: 90px;
+    border-bottom: 2px solid #cccccc;
+    margin: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    
+}
+
+.logo {
+    background-color: #4aaaa5;
+    width: 305px;
+    float: left;
+    height: 90px;
+}
+
+.logo:hover {
+    background-color: #D2EDEC;
+}
+
+.container h1:hover {
+    color: #4aaaa5;
+}
+
+.container h1 {
+    font-size: 30px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-decoration: bold;
+    color: white;
+    padding: 30px;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-weight: bold;
+    
+}
+
+
+nav {
+    float: right;
+}
+
+
+
+nav li {
+    display: inline-block;
+    padding-top: 30px;
+    font-family: Arial;
+
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-right: 1px solid #dddddd;
+}
+
+.non-b a {
+    border-right: none;
+    padding-right: 0;
+}
+
+nav li a:hover {
+    color: #4aaaa5;
+}
+
+
+
+/* middle section */
+
+#about {
+    width: 960px;
+    clear: both;
+    margin:auto;
+    margin-top: 30px;
+    background-color: white;
+    border: 2px solid #dddddd;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+   
+}
+
+#about h1 {
+    border-bottom: 3px solid #cccccc;
+    font-size: 30px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-decoration: bold;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    font-weight: bolder;
+    color: #4aaaa5;
+}
+
+.aboutbox img {
+    width: 200px;
+    padding-top: 40px;
+    float: left;
+
+}
+
+.top-p {
+    padding-left: 230px;
+    padding-top: 0;
+}
+
+.top-p p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+    padding-top: 30px;
+}
+
+.bottom-p {
+    clear: both;
+}
+
+.bottom-p p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+    padding-top: 30px;
+}
+
+/** Page2 - middle section **/
+
+.work img {
+    width: 260px;
+ 
+}
+
+.work {
+    margin-bottom: 20px;
+    display: inline-block;
+   
+}
+
+.portfolio {
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+}
+
+
+.text-wrapper {
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.portfolio:hover {
+    opacity: 0.5;
+}
+
+.text-wrapper h3 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+/** Page3 middle section - Contact **/
+
+
+.email p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+    
+}
+
+.name p {
+    padding-top: 30px;
+}
+
+.email-message p {
+    padding-top: 10px;
+}
+
+.email input {
+    padding: 10px;
+    padding-left: 10px;
+    color: #777777;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.message input{
+    padding: 100px;
+}
+
+.email button {
+    margin-top: 20px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding-top: 15px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/* footer section */
+
+footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+/* footer for portfolio page */
+
+.footer2 {
+    position: relative;
+    bottom:0;
+    width: 100%;
+    clear: both;
+
+}
+
+.wrapper {
+    background-color: #777777;
+    border-top: 10px solid #4aaaa5;
+    height: 80px;
+    margin-top: 100px;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 980px) {
+    .container {
+        max-width: 700px;
+    }
+
+    #about {
+        width: 700px;
+    }
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+
+    .container {
+        max-width: 600px;
+    }
+
+    #about {
+        width: 600px;
+    }
+
+
+    .aboutbox img {
+        width: 515px;
+        padding-top: 40px;
+        float: none;
+    
+    }
+
+    .top-p {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+ 
+    
+    }
+
+}
+/* Smart Phones */
+
+@media only screen and (max-width: 640px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        background-color: white;
+        height: 40px;
+        border-bottom: 2px solid #cccccc;
+        margin: auto;
+    }
+    
+    .container {
+        max-width: 375px;
+        margin: auto;
+        
+    }
+
+    .container h1 {
+        font-size: 15px;
+        padding: 15px;
+        padding-left: 15px;
+        
+    }
+    
+    .logo {
+        background-color: #4aaaa5;
+        width: 150px;
+        float: left;
+        height: 40px;
+    }
+
+
+    nav li {
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    
+    nav li a {
+        font-size: 11px;
+        padding-left: 10px;
+    }
+
+    #about {
+        width: 375px;
+        margin:auto;
+        margin-top: 30px;
+        background-color: white;
+        border: 2px solid #dddddd;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+       
+    }
+    
+    #about h1 {
+        border-bottom: 3px solid #cccccc;
+        font-size: 30px;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;
+        text-decoration: bold;
+        padding-top: 40px;
+        padding-bottom: 32px;
+        font-weight: bolder;
+        color: #4aaaa5;
+    }
+    
+    .aboutbox img {
+        width: 350px;
+        padding-top: 40px;
+        float: none;
+    
+    }
+
+    .top-p {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    
+    .top-p p {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        color: #777777;
+        padding-top: 30px;
+    }
+    
+    .bottom-p {
+        clear: none;
+    }
+    
+    .bottom-p p {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        color: #777777;
+        padding-top: 30px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+ 
+    
+    }
+    
+}
